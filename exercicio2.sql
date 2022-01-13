@@ -17,7 +17,7 @@ insert into tb_produtos(produto, marca, tamanho,preco ) values ("meia", "adidas"
 
 update tb_produtos set preco = 15500 where id =2;
 
-select * from tb_produtos where preco > 500;select * from tb_produtos where preco > 500;
+select * from tb_produtos where preco > 500;
 select * from tb_produtos where preco < 500;
 
 
