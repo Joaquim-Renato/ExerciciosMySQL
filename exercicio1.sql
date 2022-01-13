@@ -14,8 +14,8 @@ insert into tb_funcionarios(nome, nascimento, salario, cargo, email ) values ("J
 insert into tb_funcionarios(nome, nascimento, salario, cargo, email ) values ("Ana", "1971-12-12", 4500.00, "Dev Pleno", "ana@gmail.com");
 insert into tb_funcionarios(nome, nascimento, salario, cargo, email ) values ("Natasha", "1991-01-26", 2000.00, "Dev JR", "natasha@gmail.com");
 
-select * from tb_funcionarios where salario > 2000.00;
-select * from tb_funcionarios where salario < 2000.00;
+select * from tb_funcionarios where salario > 2000;
+select * from tb_funcionarios where salario < 2000;
 
 
 
