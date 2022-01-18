@@ -35,4 +35,9 @@ select * from tb_categoria where preco > 45;
 select * from tb_categoria where preco < 45;
 
 
- 
+select * from tb_categoria where nome LIKE 'c%';
+
+select * from tb_pizza;
+select * from tb_categoria;
+
+-- drop database db_pizzaria_legal;
